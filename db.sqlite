@@ -1,0 +1,12 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL
+);
+
+-- Inserção de registros na tabela 'users'
+INSERT INTO users (name, email, password) VALUES
+('Alice', 'alice@example.com', 'password123'),
+('Bob', 'bob@example.com', 'password456'),
+('Charlie', 'charlie@example.com', 'password789');

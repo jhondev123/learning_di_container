@@ -1,0 +1,18 @@
+{
+    "name": "jhonattan/learning-di-container",
+    "autoload": {
+        "psr-4": {
+            "Jhonattan\\LearningDiContainer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jhondev123",
+            "email": "jhonattan.curtarelli@outlook.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^7.0",
+        "psr/container": "^2.0"
+    }
+}
